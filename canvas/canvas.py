@@ -1,3 +1,7 @@
+'''
+2022 © MaoHuPi
+canvas.py v1.0.0
+'''
 import os
 import pygame
 
