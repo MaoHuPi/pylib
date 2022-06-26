@@ -71,7 +71,7 @@ class getContext2d:
             polygons = []
             for i in range(0, len(self.polygon_data)):
                 polygons.append([self.polygon_data[i]['x'], self.polygon_data[i]['y']])
-            pygame.draw.polygon(cvs.this, self.fillStyle, polygons)
+            pygame.draw.polygon(self.canvas, self.fillStyle, polygons)
     def beginPath(self):
         self.polygon_data = []
     def closePath(self):
