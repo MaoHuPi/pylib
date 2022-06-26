@@ -1,3 +1,7 @@
+'''
+2022 © MaoHuPi
+example1.py v1.0.0
+'''
 from canvas import *
 import color
 
